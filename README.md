@@ -1,6 +1,6 @@
 | layout | title | author_github | date | image | description | tags | categories |
 | :---   | :--   | :---          | :--- | :---  | :------     | :--  | :---       |
-| post   | Promises in Node Js | SureshKamediya | 2021-01-07  09:14:00 | /assests/img/Suresh.jpg | An introduction to Promises in Node js to get rid of callbackhell and how to create Promise.| `IEEE` `CompSoc` `Promises` `Development` | `CompSoc`|
+| post   | Promises in Node Js | SureshKamediya | 2021-01-07  09:14:00 | /assests/img/Suresh.jpg | An introduction to Promises in Node js to get rid of callback hell and to create a promise.| `IEEE CompSoc Promises Development` | `CompSoc` |
 
 
 # Promises in Node js
@@ -108,7 +108,7 @@ So we have created our first Promise. Now let's use it.
 then( ) for resolved Promises:
 If you revisit the picture at the beginning of this post, you'll see that there are 2 cases: One for resolved promises and one for rejected. If the Promise gets resolved (success case), then something will happen next (depends on what we do with the successful Promise).
 
-**`myPromise.then()`**;
+**myPromise.then()**;
 
 The then( ) method is called after the Promise is resolved. Then we can decide what to do with the resolved Promise.
 For example, let’s log the message to the console that we got from the Promise:
@@ -118,7 +118,7 @@ myPromise.then((message) => {
 });
 ```
 
-**`catch() for rejected Promises`**:
+**catch() for rejected Promises**:
 
 However, the then() method is only for resolved Promises. What if the Promise fails? Then, we need to use the catch() method.
 Likewise we attach the then() method. We can also directly attach the catch() method right after then():
@@ -150,11 +150,3 @@ https://www.geeksforgeeks.org/promises-in-node-js/
 https://developer.ibm.com/languages/node-js/articles/promises-in-nodejs-an-alternative-to-callbacks/
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-
-
-
-
-
-
-
-
