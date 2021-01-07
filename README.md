@@ -1,3 +1,8 @@
+| layout | title | author_github | date | image | description | tags | categories |
+| :---   | :--   | :---          | :--- | :---  | :------     | :--  | :---       |
+| post   | Promises in Node Js | SureshKamediya | 2021-01-07  09:14:00 | /assests/img/Suresh.jpg | An introduction to Promises in Note js to get rid of callbackhell and how to create it.| `IEEE` `CompSoc` `Promises` `Development` | `CompSoc`|
+
+
 # Promises in Node js
 
 ## Introduction
@@ -145,7 +150,6 @@ https://www.geeksforgeeks.org/promises-in-node-js/
 https://developer.ibm.com/languages/node-js/articles/promises-in-nodejs-an-alternative-to-callbacks/
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-
 
 
 
